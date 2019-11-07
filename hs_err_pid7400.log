@@ -1,0 +1,154 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=7400, tid=0x0000000000002704
+#
+# JRE version:  (8.0_144-b01) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.144-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002dee000):  JavaThread "Unknown thread" [_thread_in_vm, id=9988, stack(0x0000000002e30000,0x0000000002f30000)]
+
+Stack: [0x0000000002e30000,0x0000000002f30000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002dee000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9988, stack(0x0000000002e30000,0x0000000002f30000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 35840K, used 614K [0x00000000d8180000, 0x00000000da980000, 0x0000000100000000)
+  eden space 30720K, 2% used [0x00000000d8180000,0x00000000d82199a8,0x00000000d9f80000)
+  from space 5120K, 0% used [0x00000000da480000,0x00000000da480000,0x00000000da980000)
+  to   space 5120K, 0% used [0x00000000d9f80000,0x00000000d9f80000,0x00000000da480000)
+ ParOldGen       total 81920K, used 0K [0x0000000088400000, 0x000000008d400000, 0x00000000d8180000)
+  object space 81920K, 0% used [0x0000000088400000,0x0000000088400000,0x000000008d400000)
+ Metaspace       used 774K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000123f0000,0x00000000127b0000] byte_map_base: 0x0000000011fae000
+
+Marking Bits: (ParMarkBitMap*) 0x000000005e56d850
+ Begin Bits: [0x0000000012e30000, 0x0000000014c20000)
+ End Bits:   [0x0000000014c20000, 0x0000000016a10000)
+
+Polling page: 0x0000000001630000
+
+CodeCache: size=245760Kb used=327Kb max_used=327Kb free=245432Kb
+ bounds [0x0000000003030000, 0x00000000032a0000, 0x0000000012030000]
+ total_blobs=57 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.039 loading class java/lang/Short
+Event: 0.039 loading class java/lang/Short done
+Event: 0.039 loading class java/lang/Integer
+Event: 0.039 loading class java/lang/Integer done
+Event: 0.039 loading class java/lang/Long
+Event: 0.039 loading class java/lang/Long done
+Event: 0.040 loading class java/lang/NullPointerException
+Event: 0.040 loading class java/lang/NullPointerException done
+Event: 0.040 loading class java/lang/ArithmeticException
+Event: 0.040 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff6c67e0000 - 0x00007ff6c6817000 	c:\program files (x86)\smartgit\jre\bin\java.exe
+0x00007ffe122f0000 - 0x00007ffe124d1000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffe11190000 - 0x00007ffe11242000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffe0ea00000 - 0x00007ffe0ec73000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffe11e10000 - 0x00007ffe11eb1000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffe11c20000 - 0x00007ffe11cbe000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffe11f90000 - 0x00007ffe11feb000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffe11490000 - 0x00007ffe115b4000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffe11250000 - 0x00007ffe113e0000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffe0e860000 - 0x00007ffe0e880000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffe11460000 - 0x00007ffe11488000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffe0e6c0000 - 0x00007ffe0e852000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffe0ed90000 - 0x00007ffe0ee2f000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffe0e900000 - 0x00007ffe0e9fa000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffdfb1a0000 - 0x00007ffdfb409000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.285_none_fb4297e330656775\COMCTL32.dll
+0x00007ffe11810000 - 0x00007ffe11b33000 	C:\WINDOWS\System32\combase.dll
+0x00007ffe0e880000 - 0x00007ffe0e8fa000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffe11bf0000 - 0x00007ffe11c1d000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000005dae0000 - 0x000000005dbb2000 	c:\program files (x86)\smartgit\jre\bin\msvcr100.dll
+0x000000005dd50000 - 0x000000005e5ed000 	c:\program files (x86)\smartgit\jre\bin\server\jvm.dll
+0x00007ffe11ec0000 - 0x00007ffe11ec8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffe0c740000 - 0x00007ffe0c749000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffe07770000 - 0x00007ffe07793000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffe04d90000 - 0x00007ffe04d9a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffe11d90000 - 0x00007ffe11dfc000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffdffa80000 - 0x00007ffdffaaa000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffe0ee30000 - 0x00007ffe0ee79000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x000000005dc60000 - 0x000000005dc6f000 	c:\program files (x86)\smartgit\jre\bin\verify.dll
+0x000000005dc30000 - 0x000000005dc59000 	c:\program files (x86)\smartgit\jre\bin\java.dll
+0x000000005dc10000 - 0x000000005dc26000 	c:\program files (x86)\smartgit\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.net.preferIPv4Stack=true -Dsmartgit.logging=true 
+java_command: com.syntevo.smartgit.transport.askpass.SgAskPasswordMain Username for 'https://github.com': 
+java_class_path (initial): C:\Users\insonix\AppData\Roaming\syntevo\SmartGit\updates\repo\trilead.jar.463924cac9f167232b6e5a57a1eecd2ab2d4f482;C:\Users\insonix\AppData\Roaming\syntevo\SmartGit\updates\repo\smartgit.jar.639e751cc231ee4655e0baac71f87c827539c763
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161
+PATH=C:\Program Files (x86)\SmartGit\git\mingw64/libexec/git-core;C:\Program Files (x86)\SmartGit\git\mingw64/libexec/git-core;C:\Program Files (x86)\SmartGit\git\mingw64\bin;C:\Program Files (x86)\SmartGit\git\usr\bin;C:\Users\insonix\bin;C:\Program Files (x86)\SmartGit\lib;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Users\insonix\AppData\Local\Microsoft\WindowsApps;C:\Users\insonix\AppData\Roaming\npm;;c:\program files (x86)\smartgit\jre\bin
+USERNAME=insonix
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 21 model 2 stepping 0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv, bmi1
+
+Memory: 4k page, physical 7845428k(709824k free), swap 20581184k(5048k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.144-b01) for windows-amd64 JRE (1.8.0_144-b01), built on Jul 21 2017 21:57:33 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Sep 17 18:44:46 2018
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

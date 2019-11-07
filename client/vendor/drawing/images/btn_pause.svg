@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.3-Player-(with-tag+map)" transform="translate(-409.000000, -728.000000)">
+            <g id="pop-up-video" transform="translate(321.000000, 189.000000)">
+                <g id="border">
+                    <g id="elements/video" transform="translate(16.000000, 539.000000)">
+                        <g id="icon/pause" transform="translate(72.000000, 0.000000)">
+                            <g id="icon/play">
+                                <rect id="Rectangle-1" fill="#FF7C16" x="0" y="0" width="40" height="32"></rect>
+                                <path d="M15,9 L17,9 L17,24 L15,24 L15,9 Z M23,9 L25,9 L25,24 L23,24 L23,9 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

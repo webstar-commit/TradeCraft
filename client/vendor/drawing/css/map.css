@@ -1,0 +1,178 @@
+#previewContent {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#toolbar {
+    position: absolute;
+    background: #022033;
+    padding: 4px;
+    border-radius: 4px;
+    left: 60px;
+    top: 50px;
+}
+#toolbar input {
+    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#toolbar table tr {
+    transform: translateY(0);
+    transition: transform 0.4s ease-out;
+}
+#toolbar table tr.up {
+    transform: translateY(33px);
+    transition: none;
+}
+#toolbar table tr.down {
+    transform: translateY(-33px);
+}
+
+#text_create
+{
+    width: 190px;
+    position: absolute;
+    background: #13334a;
+    padding: 10px;
+    display: none;
+}
+
+#text_create_value
+{
+    width: 160px;
+    background: #13334a;
+    margin: 0;
+    padding: 9px 10px 9px 16px;
+    border: 1px solid #6ca6b5;
+    outline: none;
+    background: #13334a;
+    color: white;
+}
+
+#cancel_button
+{
+    margin-top: 10px;
+    width: 73px;
+    height: 32px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'benderregular', sans-serif;
+    background: #39586c;
+}
+
+#save_button
+{
+    width: 73px;
+    height: 32px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'benderregular', sans-serif;
+    background: #ff7c16;
+}
+
+.cesium-viewer-toolbar
+{
+	top: 40px;
+    right: 60px;
+}
+
+.cesium-viewer-animationContainer
+{
+	display: none;
+}
+
+.cesium-viewer-timelineContainer
+{
+	display: none;
+}
+
+.cesium-viewer-fullscreenContainer
+{
+	display: none;
+}
+
+.cesium-viewer-bottom
+{
+    display: none;
+}
+
+.compass
+{
+	right: 70px;
+    top: 60px;
+}
+
+.navigation-controls
+{
+	right: 100px;
+    top: 160px;
+}
+
+#screenoverlay
+{
+    position: absolute;
+    bottom: 100px;
+    width: 250px;
+    height: auto;
+    left: 90px;
+    display: none;
+    z-index: 1;
+}
+
+.cesium-viewer-geocoderContainer
+{
+    display: none;
+}
+
+.pac-logo:after
+{
+    display: none;
+}
+
+.pac-container
+{
+    background: #39586c;
+    border-top: 1px solid #022033;
+}
+
+.pac-item
+{
+    border-top: 1px solid #022033;
+}
+
+.pac-item-query span
+{
+    color: white;
+}
+
+.pac-item-query
+{
+    color: white;
+}
+
+.pac-item:hover{
+    background-color:#ff7c16;
+}
+
+.pac-item-selected,.pac-item-selected:hover
+{
+    background-color:#ff7c16;
+}
+
+.break-out-map
+{
+    display: none;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/curtail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.2-Player-(with-platform+map)" transform="translate(-1209.000000, -198.000000)">
+            <g id="pop-up-video" transform="translate(321.000000, 189.000000)">
+                <g id="border">
+                    <g id="top-menu" transform="translate(40.000000, 9.000000)">
+                        <g id="icon/curtail/down" transform="translate(848.000000, 0.000000)">
+                            <rect id="bg" fill="#13334A" x="0" y="0" width="32" height="32"></rect>
+                            <g id="icon/close" stroke-width="1" transform="translate(9.333333, 20.000000)" fill="#FFFFFF">
+                                <g id="noun_1045101">
+                                    <rect id="Rectangle" x="0" y="0" width="13.3333333" height="1.33333333"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

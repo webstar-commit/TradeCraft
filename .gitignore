@@ -1,0 +1,10 @@
+.DS_Store
+.history
+.idea
+.vscode
+node_modules
+public
+test/coverage
+dist
+client/dist
+
