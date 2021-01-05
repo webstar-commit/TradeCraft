@@ -23,7 +23,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.3",
     "bootstrap": "^3.3.4",
     "cesium": "^1.47.0",
